@@ -1,7 +1,7 @@
 /* Color customization */
 :root {
-  --primary: #f9c412;
-  --primary-dark: #e7bf60;
+  --primary: #08b33b;
+  --primary-dark: #1F9C44;
 }
 
 .test-dead-code-elimination-sentinel {
@@ -231,6 +231,22 @@ html {
   font-weight: 100 900;
   font-style: oblique 0deg 10deg;
   src: url("/fonts/Inter-3.19.var.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'jost';
+  src: url('/fonts/jost.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  src: url('/fonts/Source-Code-Pro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /*
@@ -613,7 +629,7 @@ table {
   overflow-x: auto;
 }
 pre {
-  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+  font-family: 'Source Code Pro', Monaco, Andale Mono, Ubuntu Mono, monospace;
 }
 pre code:not([class]) {
   padding: 1.5em;
@@ -624,7 +640,7 @@ kbd {
   border-radius: 0.3em;
   color: #e2777a;
   padding: 0 0.3em;
-  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+  font-family: 'Source Code Pro', Monaco, Andale Mono, Ubuntu Mono, monospace;
   font-size: 90%;
 }
 code,
@@ -685,8 +701,8 @@ dt {
   }
 }
 html {
-  font-family: Inter UI, sans-serif;
-  --font-family: Inter UI, sans-serif;
+  font-family: jost, sans-serif;
+  --font-family: jost, sans-serif;
 }
 form {
   padding: 1.5em 1.5em 0;
@@ -995,7 +1011,7 @@ code[class*="language-"],
 pre[class*="language-"] {
   color: #ccc;
   background: none;
-  font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace;
+  font-family: 'Source Code Pro', Monaco, Andale Mono, Ubuntu Mono, monospace;
   text-align: left;
   white-space: pre;
   word-spacing: normal;

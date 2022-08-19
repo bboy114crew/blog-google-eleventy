@@ -1,5 +1,5 @@
 {
-  "title": "Title of the website. Update me.",
+  "title": "Hey, I'm Steve Nguy!",
   "url": "https://update-me.com",
   "domain": "update-me.com",
   "description": "Description of the website. Update me.",
@@ -17,7 +17,7 @@
     "url": "https://update-me.com/feed/feed.json"
   },
   "author": {
-    "name": "Author Name. Update me.",
+    "name": "2022 © ll. All Right Reserved. Published with Eleventy using the Github Page.",
     "twitterHandle": "update_me"
   },
   "publisher": {
