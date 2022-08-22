@@ -884,7 +884,7 @@ header label {
 }
 header {
   padding: 4.5em 1.5em 3em;
-  width: 37.5em;
+  width: 51.5em;
   margin: 0 auto;
   text-align: center;
   max-width: 100%;
@@ -934,8 +934,24 @@ header nav label {
 }
 main {
   max-width: 70rem;
+  min-height: calc(100vh - 22em);
   margin: 0 auto;
   border-top: 0.5px solid #ccc;
+}
+@media (min-width: 375px) {
+  main {
+    min-height: calc(100vh - 23em);
+  }
+}
+@media (min-width: 600px) {
+  main {
+    min-height: calc(100vh - 23em);
+  }
+}
+@media (min-width: 1200px) {
+  main {
+    min-height: calc(100vh - 25em);
+  }
 }
 footer {
   background: rgba(0, 0, 0, 0.8);
